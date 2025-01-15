@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles MadCap:conditions="General.print_only" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="Title" Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="title" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1.00in" PaddingBottom="1in">
+        <Frame Flow="body" ColumnCount="1" Anchors="Left,Right,Top,Bottom" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="0in" Y="0in" Right="0in" Bottom="0in" Width="576px" Height="864px">
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="20px" PageSize="Letter" PageType="normal" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1.00in" PaddingBottom="1in">
+        <Frame X="-96px" Y="-40px" Width="719px" Height="937px" Flow="body" Right="-47px" Bottom="-33px" />
+        <Frame X="-93px" Y="908px" Width="713px" Height="36px" Flow="footer" Right="-44px" Bottom="-80px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="text-align:center;">- <MadCap:variable xhtml:name="System.PageNumber" /> -</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

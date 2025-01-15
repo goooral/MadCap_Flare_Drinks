@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Title"
+    Link="/Content/Resources/Title.htm"
+    BreakType="pageLayout"
+    PageType="title"
+    StartSection="false"
+    PageLayout="/Content/Resources/Layouts/Main.flpgl"></TocEntry>
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/A_Basics/Introduction.htm">
+    <TocEntry
+      Title="First steps"
+      Link="/Content/A_Basics/First steps.htm" />
+    <TocEntry
+      Title="Myths, pros and cons"
+      Link="/Content/A_Basics/Myths pros and cons.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Recipes"
+    Link="/Content/B_Recipes/Recipes.htm">
+    <TocEntry
+      Title="Tepache"
+      Link="/Content/B_Recipes/Tepache.htm"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="Kvass/Gira"
+      Link="/Content/B_Recipes/Kvass Gira.htm"></TocEntry>
+    <TocEntry
+      Title="Ginger bug"
+      Link="/Content/B_Recipes/Ginger bug.htm"></TocEntry>
+    <TocEntry
+      Title="Kombucha"
+      Link="/Content/B_Recipes/Kombucha.htm" />
+    <TocEntry
+      Title="Apple cider"
+      Link="/Content/B_Recipes/Apple cider.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Contact"
+    Link="/Content/A_Basics/Contact_print.htm"
+    conditions="General.print_only"></TocEntry>
+  <TocEntry
+    Title="Contact"
+    Link="/Content/A_Basics/Contact_web.htm"
+    conditions="General.web_only"></TocEntry>
+</CatapultToc>
